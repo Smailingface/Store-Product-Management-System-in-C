@@ -8,3 +8,43 @@ También aprendí el uso del return de diversas maneras: desde retornar valores 
 Esto me ayudó a comprender mejor cómo gestionar el flujo del programa y cómo hacer que las funciones devuelvan información útil para otras partes del código.
 
 Este proyecto ha consolidado mis conocimientos básicos del lenguaje C, lo que me proporciona una base sólida para aprender nuevos lenguajes de programación de manera más dinámica.
+
+## Cómo Ejecutarlo
+
+### Requisitos Previos
+- Un compilador de C:
+  - **Windows**: Puedes usar **Visual Studio** (con las herramientas de desarrollo C/C++ instaladas) o **MinGW**.
+  - **Linux/Mac**: Puedes usar **GCC** (GNU Compiler Collection).
+
+### Pasos
+1. Clona el repositorio: `git clone https://github.com/Smailingface/Store-Product-Management-System-in-C.git`
+2. Navega al directorio del proyecto: `cd Store-Product-Management-System-in-C`
+3. **Windows (Visual Studio)**:
+   - Abre el proyecto en Visual Studio.
+   - Compila la solución.
+   - Ejecuta el programa desde Visual Studio.
+   
+4. **Windows (MinGW)**:
+   - Abre la línea de comandos (cmd) o PowerShell.
+   - Ejecuta el siguiente comando para compilar:  
+     ```bash
+     gcc -o store_management src/main.c
+     ```
+   - Después de compilar, ejecuta el programa:  
+     ```bash
+     store_management.exe
+     ```
+
+5. **Linux/Mac (GCC)**:
+   - Abre una terminal.
+   - Ejecuta el siguiente comando para compilar:  
+     ```bash
+     gcc -o store_management src/main.c
+     ```
+   - Después de compilar, ejecuta el programa:  
+     ```bash
+     ./store_management
+     ```
+
+## Características
+- Agregar, buscar, mostrar y comprar productos.
